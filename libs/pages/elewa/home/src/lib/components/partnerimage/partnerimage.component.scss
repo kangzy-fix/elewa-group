@@ -1,0 +1,25 @@
+.home-page {
+    max-width: 100vw;
+    min-height: 100vh;
+  
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 767px) {
+    .img{
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
